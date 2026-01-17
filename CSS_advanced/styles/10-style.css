@@ -8,6 +8,7 @@ body{
     font-family:var(--font-family-base);
     font-size:var(--font-size-medium);
     font-weight:var(--font-weight-regular);
+    line-height:var(--line-height-base);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -16,6 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 a{
     color:#161616;
+    text-decoration: none;
 }
 
 .visually-hidden{
@@ -38,7 +40,7 @@ a{
     --color-dark-grey:#353535;
     --text-color:var(--color-black);
 
-    --font-family-base:"Open Sans", "Helvetica Neue",Helvetica, Arial, sans-serif;
+    --font-family-base:"Open sans", "Helvetica Neue",Helvetica, Arial, sans-serif;
     --font-family-title:"Raleway","Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small:1.2rem;
     --font-size-medium:1.6rem;
@@ -48,4 +50,8 @@ a{
 
     --font-weight-regular:400;
     --font-weight-bold:700;
+
+    --line-height-small:1.2;
+    --line-height-base:1.5;
+    --line-height-big:1.8;
 }
