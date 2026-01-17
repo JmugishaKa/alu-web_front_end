@@ -1,1 +1,1 @@
-Advance Frontend development
+Advanced Frontend development
